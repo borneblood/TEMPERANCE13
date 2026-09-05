@@ -55,7 +55,7 @@
 				user.emote("scrunches their nose, finding nothing appetizing.")
 				return FALSE
 		else
-			user.visible_message(span_artery("[user] tears a chunk from [corpse] and devours it!"), span_artery("You tear a chunk from [corpse] and devour it."))
+			user.visible_message(span_artery("[user] tears multiple chunks from [corpse] and devours it!"), span_artery("You tear a chunk from [corpse] and devour it."))
 
 	if(!corpse || QDELETED(corpse))
 		return TRUE
